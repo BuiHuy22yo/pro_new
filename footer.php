@@ -1,13 +1,11 @@
-
 <?php
-do_action('before_footer');
-
-do_action('ctwp_footer');
-
-do_action('after_footer');
-
-?>
-
-<?php wp_footer() ?>
+if (!defined('ABSPATH')) {
+    return;
+} ?>
+            <?php echo pro_new_footer_area(); ?>
+        </div>
+    </div>
+    
+    <?php wp_footer(); ?>
 </body>
 </html>
