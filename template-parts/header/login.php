@@ -1,6 +1,0 @@
-<?php 
-/**
-* Login
-*
-* @package ctwp
-*/

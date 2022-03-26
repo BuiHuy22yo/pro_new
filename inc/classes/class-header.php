@@ -46,14 +46,6 @@ class Header {
 	public function header_main() {?>
         <div class="header_main_left"><?php get_template_part('template-parts/header/logo'); ?></div>
         <div class="header_main_center"><?php get_template_part('template-parts/header/nav'); ?></div>
-        <div class="header_main_right">
-            <?php
-            get_template_part('template-parts/header/currency');
-            get_template_part('template-parts/header/mult_languages');
-            get_template_part('template-parts/header/cart');
-            get_template_part('template-parts/header/toggle');
-            ?>
-        </div>
         <?php
 	}
 
