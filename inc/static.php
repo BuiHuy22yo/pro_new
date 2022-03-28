@@ -7,8 +7,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  *  SITE STYLE
  ******************************************************************************************************************************
  */
-wp_enqueue_style( 'fontawesome-pro', get_template_directory_uri() . '/assets/build/library/fontawesome-pro/css/all.min.css', array(), false, "all" );
-wp_enqueue_style( 'bootstrap-grid', get_template_directory_uri() . '/assets/build/library/bootstrap/bootstrap.min.css', array(), false, "all" );
+wp_enqueue_style( 'fontawesome-pro', get_template_directory_uri() . '/assets/src/library/fontawesome-pro/css/all.min.css', array(), false, "all" );
+wp_enqueue_style( 'bootstrap-grid', get_template_directory_uri() . '/assets/src/library/bootstrap/bootstrap.min.css', array(), false, "all" );
 wp_enqueue_style( 'dl-menu', get_template_directory_uri() . '/assets/build/library/dlmenu/component.css', array(), false, "all" );
 wp_enqueue_style( 'pro_new-style', get_template_directory_uri() . '/assets/build/css/main.css', array(), false, "all" );
 wp_enqueue_style( 'fa5', 'https://use.fontawesome.com/releases/v5.13.0/css/all.css', array(), '5.13.0', 'all' );

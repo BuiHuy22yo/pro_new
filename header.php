@@ -35,11 +35,6 @@ if (!defined('ABSPATH')) {
        }
         if(!is_home()&& !is_front_page()){ ?>
             <section class="page-title-bar">
-                <header class="page-header title">
-                    <h2 class="entry-title page-title">
-                        <span><?php echo $title; ?></span>
-                    </h2>
-                </header>
                 <?php echo pro_new_breadcrumb() ?>
             </section>
        <?php }  ?>
